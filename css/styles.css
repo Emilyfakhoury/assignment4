@@ -49,6 +49,7 @@ header nav {
 
  =======================================*/
 
+
 .images {
   position: relative;
   transform: rotate(90deg);
@@ -64,3 +65,20 @@ header nav {
 h2 {
   margin: 20px 0px 10px;
 }
+
+.text-image-container {
+  position: relative;
+  max-width: 400px;
+}
+
+.text-container {
+  position: absolute;
+  top: 0px;
+  padding: 60px 50px;
+  color: white;
+}
+
+ main {
+   position: relative;
+   z-index: -10;
+ }
