@@ -82,3 +82,30 @@ h2 {
   float: left;
   margin: 0 30px 20px 0;
 }
+
+.chemi1 {
+  transition: 1s;
+}
+
+.chemi2 {
+  transition: 1s;
+}
+
+.chemi1:hover {
+  width: 280px;
+  transition: 1s;
+}
+
+.chemi2:hover {
+  width: 280px;
+  transition: 1s;
+}
+
+.cloud {
+  position: absolute;
+  top: 120px;
+}
+
+@keyframes wind {
+
+}
