@@ -26,6 +26,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 99;
 }
 
 header li {
@@ -78,7 +79,8 @@ h2 {
   color: white;
 }
 
- main {
-   position: relative;
-   z-index: -10;
- }
+.custom-text {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: cursive; 
+}
