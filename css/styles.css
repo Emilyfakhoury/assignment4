@@ -24,6 +24,8 @@ header {
   background: #fac2bd;
   padding: 25px;
   position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 header li {
@@ -47,13 +49,16 @@ header nav {
 
  =======================================*/
 
-.rotate {
+.images {
+  position: relative;
   transform: rotate(90deg);
+  left: 100px;
 }
 
 .container {
   max-width: 500px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 h2 {
